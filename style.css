@@ -1,0 +1,172 @@
+body{
+    padding-top: 56px;
+}
+
+/** header **/
+
+.custom-navbar{
+    background-color: black;
+}
+
+.custom-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+
+.navbar-brand img {
+    height: 40px; 
+    width: auto;  
+  }
+  
+.custom-toggler{
+    border-bottom: transparent;
+    background-color: aliceblue;
+}
+
+.custom-toggler .fa-bars{
+    color: grey;
+}
+
+/** hero-section **/
+
+.custom-carousel{
+    width: 100%;
+    height: 100%;
+}
+
+.products h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 46px;
+}
+
+@media (max-width: 768px){
+    .products h1{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+    }
+}
+
+.section-items{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.section-items img{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.section-items h3{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+
+.section-blogs{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.section-blogs h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.section-blogs p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.custom-col-blog {
+    margin-bottom: 20px;
+  }
+  
+
+.blog{
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #fff;
+}
+
+.footer-img{
+    background-color: #be9509;
+}
+
+.container{
+    width: 100%;
+}
+
+.container img{
+    width: 100%;
+}
+
+/** footer **/
+
+.custom-footer{
+    background-color: black;
+}
+
+footer img{
+    width: 100%;
+}
+
+.custom-footer ul.footer-list{
+    font-size: 1rem;
+    list-style-type: none;
+    color: #be9509;
+    text-align: start;
+}
+
+.footer-list li{
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.custom-footer h4{
+    text-align: start;
+    margin-left: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #be9509;
+}
+
+@media (max-width: 768px){
+    .custom-footer img{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .footer-img-section{
+        display: block;
+        margin-left: 0;
+        text-align: left;
+    }
+}
+
+.footer-bottom{
+    text-align: start;
+    color: #be9509;
+    background-color: black;
+    border-top: 1px solid grey;
+}
+
+.footer-bottom h4{
+    font-size: 0.8rem;
+    padding: 10px;
+}
